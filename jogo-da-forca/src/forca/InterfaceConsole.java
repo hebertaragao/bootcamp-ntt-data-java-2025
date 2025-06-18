@@ -2,7 +2,6 @@ package forca;
 
 import java.util.Scanner;
 
-import forca.Jogador.Jogador;
 
 public class InterfaceConsole {
 

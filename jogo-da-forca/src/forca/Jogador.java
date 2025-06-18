@@ -1,5 +1,4 @@
-package forca.Jogador;
-
+package forca;
 import java.util.HashSet;
 
 public class Jogador {
