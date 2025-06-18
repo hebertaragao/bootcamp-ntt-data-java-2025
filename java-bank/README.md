@@ -1,18 +1,34 @@
-## Getting Started
+# 💳 Banco Digital Orientado a Objetos - DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma simulação de um sistema bancário construído com Java, utilizando **Programação Orientada a Objetos (POO)** para consolidar conceitos como herança, abstração, encapsulamento, polimorfismo e reuso de código.
 
-## Folder Structure
+## 🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+- Criar conta corrente
+- Realizar depósitos e saques
+- Transferir valores via PIX (simulado)
+- Exibir extrato completo da conta com histórico
+- Menu interativo no console
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📐 Arquitetura
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O projeto segue o padrão MVC dividido em:
+- `model` → entidades como `Conta`, `Cliente`, `Transacao`
+- `repository` → simula persistência em memória
+- `service` → regras de negócio
+- `app/Main.java` → interface interativa via terminal
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🔧 Tecnologias utilizadas
 
-## Dependency Management
+- Java 17+
+- Java Records e Enums
+- Lombok (caso deseje automatizar `getters/setters`)
+- Git & GitHub
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🖥️ Como executar
+
+```bash
+git clone https://github.com/seu-usuario/banco-poo-dio
+cd banco-poo-dio
+javac app/Main.java
+java app.Main
