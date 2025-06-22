@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java-bank/src"/>
+	<classpathentry kind="src" path="jogo-da-forca/src"/>
+	<classpathentry kind="src" path="desafio-de-projeto-pedidos/apigateway/src/main/java/com/seuprojeto/apigateway"/>
+	<classpathentry excluding="apigateway/" kind="src" path="desafio-de-projeto-pedidos/apigateway/src/main/java/com/seuprojeto"/>
+	<classpathentry kind="src" path="desafio-de-projeto-pedidos/catalogodeprodutos/src/main/java/com/seuprojeto"/>
+	<classpathentry kind="src" path="desafio-de-projeto-pedidos/servicediscovery/src/main/java/com/seuprojeto/servicediscovery"/>
+	<classpathentry kind="src" path="desafio-de-projeto-pedidos/simulacaodepedidos/src/main/java/com/seuprojeto/simulacaodepedidos"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
